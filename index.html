@@ -4,12 +4,12 @@
   </head>
 
   <body
-    class="bg-black flex flex-col justify-center items-center gap-4 select-none cursor-crosshair">
+    class="container mx-auto bg-black flex flex-col justify-center items-center gap-4 select-none cursor-crosshair">
 
     <header class="bg-black text-white shadow-md fixed top-0 left-0 w-full z-50">
-      <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-        <h1 class="text-2xl font-bold font-mono">Lino's Art</h1>
-        <nav class="space-x-6 text-lg font-mono hidden md:flex">
+      <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-start">
+        <h1 class="lg:text-[30px] sm:text-[50px] font-bold font-mono">Lino's Art</h1>
+        <nav class="lg:text-[20px] lg:flex-row sm:flex-col sm:text-[40px] space-x-6 font-mono flex items-end">
           <a href="#page1" class="hover:text-blue-400 transition">Home</a>
           <a href="#page2" class="hover:text-blue-400 transition">About Me</a>
           <a href="#page3" class="hover:text-blue-400 transition">Gallery</a>
@@ -19,36 +19,36 @@
       </div>
     </header>
 
-    <div id="page1" class="h-[100vh] flex flex-col justify-center items-center">
+    <div id="page1" class="w-[100vw] container h-[100vh] flex flex-col justify-center items-center ">
       <div
-        class="rounded-[40px] w-[445px] bg-white flex justify-center items-center flex-col"
+        class="rounded-[40px] w-[445px] bg-white flex justify-center items-center flex-col md:text-[100px] sm:text-[200px] lg:text-[60px] container"
       >
         <h1
-          class="flex justify-center text-black text-[60px] font-bold font-mono cursor-crosshair rounded-full px-[60px] py-[10px]
+          class="flex justify-center text-black font-bold font-mono cursor-crosshair rounded-full px-[60px] py-[10px]
            [0_0_5px_1px_black] duration-100"
         >
           I'm Lino!
         </h1>
       </div>
-      <p class="text-center flex justify-center mt-4 text-gray-400 text-2xl">
+      <p class="text-center flex justify-center mt-4 text-gray-400 sm:text-[40px] lg:text-[20px] container">
         I'm An ARTist!!. to know more about me<br />
         press the button down!
       </p>
-      <a class="text-white bg-[rgba(255,255,255,0.3)] mt-20 px-7 py-3 text-[30px] rounded-[30px]" href="#gallery">My Works</a>
+      <a class="sm:text-[65px] lg:text-[20px] text-white bg-[rgba(255,255,255,0.3)] mt-20 px-7 py-3 text-[30px] rounded-[30px]" href="#gallery">My Works</a>
     </div>
 
-    <div id="page2" class="flex flex-col justify-center items-center">
+    <div id="page2" class="container mx-auto flex flex-col justify-center items-center gap-2 ">
       <h1
       id="about"
-        class="font-bold text-white font-mono mt-50 text-6xl text-white [text-shadow:0_0_10px_white]"
+        class="font-bold text-white font-mono mt-50 sm:text-[100px] lg:text-[50px] text-white [text-shadow:0_0_10px_white]"
       >
         About Me
       </h1>
       <div
-        class="rounded-[40px] bg-[rgba(255,255,255,0.1)] flex justify-center items-center"
+        class="rounded-[40px] bg-[rgba(255,255,255,0.1)] flex justify-center items-center sm:text-[50px] lg:text-[25px]"
       >
         <p
-          class="text-3xl text-white font-bold font-mono flex flex justify-center items-center p-10"
+          class=" text-white font-bold font-mono flex flex justify-center items-center p-10"
         >
           So, Now you guys know I am an Artist.<br />
           My other things are Software Development, Cooking, Boxing.<br />
@@ -59,27 +59,25 @@
       </div>
       <a href="https://www.instagram.com/linotheboy">
         <div
-          class="rounded-[40px] gap-2 mt-4 bg-[rgba(255,255,255,0.1)] flex justify-center items-center p-2 border-[rgba(255,255,255,0.6)] border-[1px]"
+          class="text-white transition rounded-[40px] gap-2 mt-4 bg-[rgba(255,255,255,0.1)] flex justify-center items-center p-2 border-[rgba(255,255,255,0.6)] border-[1px]"
         >
-          <img
-            class="w-[50px] rounded-full"
-            src="https://imgs.search.brave.com/cX05ij3M2fcNHygdwnq0FYh0FeRhaAImOKT8cVMdaJw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWdz/LnNlYXJjaC5icmF2/ZS5jb20vMDZEWEpk/QWJTUkZ0MGgtN1NQ/LUlOY3FfMEphbm44/Zms2OFJzOGVydDhL/MC9yczpmaXQ6NTAw/OjA6MDowL2c6Y2Uv/YUhSMGNITTZMeTlw/YldjdS9abkpsWlhC/cGF5NWpiMjB2L2NI/SmxiV2wxYlMxMlpX/TjAvYjNJdmFXNXpk/R0ZuY21GdC9MWFps/WTNSdmNpMXpiMk5w/L1lXd3RiV1ZrYVdF/dGFXTnYvYmw4ME5U/a3hNalF0TlRVNC9M/bXB3Wno5elpXMTBQ/V0ZwL2MxOW9lV0p5/YVdRbWR6MDMvTkRB"
-            alt=""
-          />
+          <svg xmlns="http://www.w3.org/2000/svg" class="lg:h-6 sm:h-20 aspect-sqaure fill-current" viewBox="0 0 24 24">
+          <path d="M7.75 2A5.75 5.75 0 002 7.75v8.5A5.75 5.75 0 007.75 22h8.5A5.75 5.75 0 0022 16.25v-8.5A5.75 5.75 0 0016.25 2h-8.5zm8.5 2.5a1.25 1.25 0 110 2.5 1.25 1.25 0 010-2.5zM12 7a5 5 0 110 10 5 5 0 010-10zm0 2.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5z"/>
+        </svg>
 
-          <h1 class="text-white font-bold">@linotheboy</h1>
+          <h1 class="text-white font-bold sm:text-[50px] lg:text-[25px]">@linotheboy</h1>
           <div class=""></div>
         </div>
       </a>
       <h1
       id="gallery"
-        class="mt-100 text-6xl font-bold text-black mb-12 text-white [text-shadow:0_0_10px_white]"
+        class="sm:text-[100px] lg:text-[50px] mt-100 text-6xl font-bold text-black mb-12 text-white [text-shadow:0_0_10px_white]"
       >
         Gallery
       </h1>
       <div
         id="page3"
-        class="grid grid-rows-3 grid-cols-3 overflow-none gap-3 w-[50vw] transition-all duration-300 ease-in-out"
+        class="grid grid-rows-3 grid-cols-3 overflow-none gap-3 lg:w-[50vw] sm:w-[80vw] transition-all duration-300 ease-in-out"
       >
         <img
           src="./images/muzan.jpg"
@@ -167,23 +165,24 @@
         </summary>
         <p class="text-white text-4xl mt-10">I like any Healthy food.</p>
       </details>
-      <form class="max-w-md mx-auto bg-[rgba(255,255,255,0.1)] p-6 mt-100 mb-60 shadow-md space-y-4 rounded-xl">    
-<h2 class="text-2xl font-bold text-white">Contact Me</h2>
+
+      <form class="lg:text-[30px] sm:text-[50px] container mx-auto bg-[rgba(255,255,255,0.1)] p-6 mt-100 mb-60 shadow-md space-y-4 rounded-xl">    
+<h2 class="lg:text-[50px] sm:text-[80px] font-bold text-white">Contact Me</h2>
 
  <div>
-<label class="block text-sm font-medium text-white mb-1">Name</label>
+<label class="block font-medium text-white mb-1">Name</label>
 <input type="text" class="w-full border text-white rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
 
     </div>
 
     <div id="contact">
-<label class="block text-sm font-medium text-white mb-1">Email</label>
+<label class="block font-medium text-white mb-1">Email</label>
 <input type="email" class="w-full border border-white rounded-md p-2 text-white focus:outline-none focus:ring-2 focus:ring-blue-500">
  
 </div>
 
  <div>
-<label class="block text-sm font-medium text-white mb-1">Message</label>
+<label class="block font-medium text-white mb-1">Message</label>
 <textarea class="w-full border border-white rounded-md p-2 focus:outline-none text-white focus:ring-2 focus:ring-blue-500"></textarea>
 
  </div>
@@ -191,14 +190,14 @@
     Send
   </button>
       </form>
-<footer class="bg-black text-gray-300 py-8 mt-16 w-full">
-  <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
-    <div class="mb-4 md:mb-0">
-      <h2 class="text-white text-2xl font-bold">Lino's Art</h2>
-      <p class="text-gray-400 mt-1">© 2025 All rights reserved.</p>
+<footer class="bg-black text-gray-300 py-8 mt-16 w-full absolute left-0">
+  <div class="mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
+    <div class="mb-0">
+      <h2 class="text-white lg:text-[40px] sm:text-[50px] font-bold">Lino's Art</h2>
+      <p class="text-gray-400 mt-1 lg:text-[20px] sm:text-[25px]">© 2025 All rights reserved.</p>
     </div>
     
-    <nav class="flex space-x-6 text-gray-400">
+    <nav class="flex space-x-6 lg:text-[30px] sm:text-[30px] text-gray-400">
       <a href="#page1" class="hover:text-white transition">Home</a>
       <a href="#about" class="hover:text-white transition">About</a>
       <a href="#gallery" class="hover:text-white transition">Gallery</a>
@@ -208,7 +207,7 @@
     
     <div class="flex space-x-4 mt-4 md:mt-0">
       <a href="https://www.instagram.com/linotheboy" aria-label="Instagram" class="hover:text-white transition">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 fill-current" viewBox="0 0 24 24">
+        <svg xmlns="http://www.w3.org/2000/svg" class="lg:h-6 sm:h-20 fill-current" viewBox="0 0 24 24">
           <path d="M7.75 2A5.75 5.75 0 002 7.75v8.5A5.75 5.75 0 007.75 22h8.5A5.75 5.75 0 0022 16.25v-8.5A5.75 5.75 0 0016.25 2h-8.5zm8.5 2.5a1.25 1.25 0 110 2.5 1.25 1.25 0 010-2.5zM12 7a5 5 0 110 10 5 5 0 010-10zm0 2.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5z"/>
         </svg>
       </a>
